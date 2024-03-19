@@ -1,8 +1,10 @@
 package bll;
 
+import be.Event;
+
 public class EventLogic {
     public boolean createNewEvent(String name, String location, String notes)  {
-         song = new Song(name,location ,notes);
-        return songsDao.createSong(song);
+         Event = new Event(name,location ,notes);
+        return EventDao.createSong(Event);
     }
 }

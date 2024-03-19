@@ -3,6 +3,7 @@ package be;
 public class Event {
     private int EventId;
     private String name;
+    private int time;
     private String location;
     private String notes;
 
